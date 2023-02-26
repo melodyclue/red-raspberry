@@ -6,10 +6,7 @@ import getPageNumbers from "@utils/getPageNumbers";
 
 import { getCollection } from "astro:content";
 
-const posts = await getCollection(
-  "blog",
-  ({ data }) => !data.draft || !data.readme
-);
+const posts = await getCollection("blog", ({ data }) => data.readme);
 
 const sortedPosts = getSortedPosts(posts);
 

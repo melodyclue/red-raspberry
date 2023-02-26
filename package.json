@@ -10,7 +10,7 @@
     "sync": "astro sync",
     "astro": "astro",
     "format:check": "prettier --plugin-search-dir=. --check .",
-    "format": "prettier --plugin-search-dir=. --write .",
+    "format": "prettier -w --plugin-search-dir=. .",
     "cz": "cz",
     "prepare": "husky install",
     "lint": "eslint ."
@@ -41,6 +41,7 @@
     "husky": "^8.0.3",
     "lint-staged": "^13.1.2",
     "prettier": "^2.8.4",
+    "prettier-plugin-astro": "^0.8.0",
     "prettier-plugin-tailwindcss": "^0.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -52,7 +53,7 @@
   },
   "lint-staged": {
     "*": [
-      "prettier --plugin-search-dir=. --write"
+      "prettier -w --plugin-search-dir=. ."
     ]
   }
 }

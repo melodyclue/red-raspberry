@@ -20,7 +20,7 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/melodyclue/red-raspberry",
+    href: "https://github.com/melodyclue",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
@@ -28,7 +28,7 @@ export const SOCIALS: SocialObjects = [
     name: "Facebook",
     href: "https://www.facebook.com/melodyclue",
     linkTitle: `${SITE.title} on Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
