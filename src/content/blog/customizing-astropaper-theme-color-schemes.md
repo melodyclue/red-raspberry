@@ -5,6 +5,7 @@ title: Customizing AstroPaper theme color schemes
 postSlug: ""
 featured: false
 draft: false
+readme: true
 tags:
   - color-schemes
   - docs

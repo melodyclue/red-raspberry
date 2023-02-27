@@ -5,6 +5,7 @@ pubDatetime: 2022-09-21T05:17:19Z
 postSlug: how-to-connect-astro-paper-blog-with-forestry-cms
 featured: false
 draft: false
+readme: true
 tags:
   - docs
   - forestry-cms

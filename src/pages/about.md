@@ -3,34 +3,17 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+Hello and welcome to my profile! My name is Reo, and I am a front-end engineer currently based in Japan.
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+My expertise lies in HTML, CSS, JavaScript, I have 2 years of experience in the field, and during that time I have had the opportunity to work on a variety of projects ranging from simple landing pages to complex web applications.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+Also I specialize in developing the client-side of web applications with the very cool front-end frameworks such as React, Vue, and Svelte.
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+I am passionate about front-end development and always stay up-to-date with the latest trends and technologies. I am constantly learning and improving my skills to deliver the best possible user experience for end-users.
 
 ## Tech Stack
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+- ReactJS (NextJS)
+- Prisma
+- tRPC
+- next-auth (authjs)
